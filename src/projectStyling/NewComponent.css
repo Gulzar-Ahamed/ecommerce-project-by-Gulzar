@@ -1,0 +1,45 @@
+.Title{
+    margin-top: 25px;
+    padding-left:20px;
+   
+    font-size: 1.1rem;
+}
+
+.Title >h1{
+    color:black; 
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+}
+
+.FilterContainer{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+
+.FilterGroup{
+    display: flex;
+  align-items: center;
+}
+.bold-option {
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+  }
+  
+
+  @media screen  and (max-width:570px){
+    .FilterContainer{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    
+  .FilterGroup {
+    margin-bottom: 20px;
+  }
+  
+    .Select{
+        width:100%;
+    }
+    
+  }

@@ -1,0 +1,80 @@
+.ProductsContainer >h2{
+    color:red
+}
+
+.ProductsContainer{
+    padding: 7px;
+    background-color: #FFEEF4;
+    margin-top: 2rem;
+}
+
+.GridRowStyling{
+     display: grid;
+     grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+    
+    padding: 20px;
+    margin-top: 2rem;
+    
+    justify-content: center;
+    /* background-color: yellowgreen; */
+}
+/* please use the above for categories also perfect concept */
+.GridColumn{
+    
+    /* min-width: 280px; */
+    
+    /* height: 400px; */
+    width: 80%;
+    min-width: 280px;
+    margin:10px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+/* .GridColumn:hover{
+    background-color: rgb(0, 0, 0,0.2);
+} */
+
+
+  .hovered-card {
+    background-color: rgba(0, 0, 0, 0.2); /* Change background color on hover */
+    z-index: 1; /* Bring the card to the front when hovered */
+  }
+  
+  
+   
+  
+.CardImage{
+    height: 290px;
+    /* width: 290px; */
+    width: max-content;
+    object-fit: fill;
+}
+
+ .CardButton{
+    display: flex;
+    justify-content: center;
+     align-items: stretch;
+     transition: rgb(0,0,0,0.2) 0.2s ease;
+
+} 
+
+  @media screen and (max-width: 768px) {
+    .GridRowStyling {
+        grid-template-columns: repeat(1,1fr);
+        /* grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); Adjust minimum width for smaller screens */
+    }
+
+    .GridColumn {
+        width: 90%;
+        min-width: 160px; /* Adjust minimum width for smaller screens */
+        max-width: none; /* Allow cards to take the full width on smaller screens */
+    }
+
+    .CardImage {
+        height: 190px; /* Adjust card height for smaller screens */
+       object-fit: fill;
+       /* the above one once i change it from contain to fill problem resolved */
+       
+       width: 100%; /* Adjust card width for smaller screens */
+    }
+}

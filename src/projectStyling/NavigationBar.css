@@ -1,0 +1,195 @@
+.Announcement{
+  background-color: teal;
+  color: white;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* the below is very useful when it comes to responsive layout */
+  height: 5vh;
+  width: 99vw;
+}
+
+li a:focus{
+ 
+  text-decoration: none;
+  border-bottom: 0px;
+}
+
+:where(.css-dev-only-do-not-override-190m0jy).ant-menu-light .ant-menu-item-selected, :where(.css-dev-only-do-not-override-190m0jy).ant-menu-light>.ant-menu .ant-menu-item-selected {
+  background-color: white;
+}
+
+:where(.css-dev-only-do-not-override-190m0jy).ant-menu-light, :where(.css-dev-only-do-not-override-190m0jy).ant-menu-light>.ant-menu {
+ 
+  height: 12vh;
+ 
+
+}
+
+:where(.css-dev-only-do-not-override-190m0jy).ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected::after, :where(.css-dev-only-do-not-override-190m0jy).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-item-selected::after, :where(.css-dev-only-do-not-override-190m0jy).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-selected::after, :where(.css-dev-only-do-not-override-190m0jy).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-submenu-selected::after {
+  border-bottom-width: 1px;
+  border-bottom-color: white;
+}
+
+.NavBarContainer ul{
+  height:"140px";
+  width:"90%";
+  color:"CAEDFF",
+  
+}
+
+.NavBarContainer ul{
+  height: 7vh;
+  background-color: white;
+}
+
+
+
+.navbar-logo {
+  width: auto;
+  height: auto;
+  max-height: 90px;
+    margin-right: 20px; 
+    
+}
+   
+
+.developerContainer{
+ display: flex;
+ flex: 1 1 ;
+}
+
+.logoContainer{
+  display: flex;
+  justify-content: flex-end;
+  flex:2 ;
+}
+
+
+.iconContainer{
+  display: flex;
+  flex:3 ;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+/* from chatGPT */
+/*   
+.logo-item,
+.en-item,
+.search-item {
+  display: flex;
+  align-items: center;
+}
+
+.en-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .search-item {
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
+    padding-right: 20px;
+  } */
+  
+  .navbar-logo {
+    height: 75px;
+    width: auto;
+  }
+
+
+  
+  .ant-input-search {
+    border-color: transparent;
+    outline: none;
+    box-shadow: none;
+  }
+
+  .ant-input-search:focus {
+    border-color: transparent;
+    outline-color: none;
+    box-shadow: none;
+    background-color: transparent;
+  }
+
+
+
+
+
+  /* Carousel component styling */
+
+  .Carousel{
+     max-width:100%;
+    max-height: 70vh;
+    
+    /* background-color: blue; */
+    
+  }
+
+  .Slider{     
+      /* this is gonna solve */  
+      aspect-ratio: 16/6; 
+  }
+
+  .ImageDiv {
+    max-width: 100%;
+    height: 100%;        
+  }
+
+   .img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+   }
+  /* Base styles for the "previous" and "next" buttons */
+.previous, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+}
+
+/* Styles for the "previous" button on the left */
+.previous {
+  left: 0;
+  ;
+}
+
+/* Styles for the "next" button on the right */
+.next {
+  right: 0;
+}
+
+
+
+
+/* Media query to hide arrows on smaller screens */
+@media (min-width: 768px) {
+  .previous,
+  .next {
+    display: none;
+  }
+
+  .logoContainer{
+    order: 2;
+    flex:1;
+  }
+
+  .developerContainer{
+    order: 1;
+  
+  }
+
+  .iconContainer{
+    order:3
+  }
+}
+
+
+

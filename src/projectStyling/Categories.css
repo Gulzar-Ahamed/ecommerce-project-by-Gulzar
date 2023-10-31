@@ -1,0 +1,92 @@
+.categories-container {
+    padding: 20px;
+    margin-top: 7rem;
+  }
+  
+  .GridStyling {
+    background-color: #f0f0f0;
+    padding: 20px;
+    height: 75vh;
+  }
+  
+  .category-card {
+  
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   
+    
+  }
+  
+  
+  
+  
+  
+
+  /* Media query for screens smaller than 768px (typical mobile screen size) */
+@media (max-width: 768px) {
+    .GridStyling {
+      /* Change the grid layout to display cards vertically */
+      display: flex;
+      /* height: 100%; */
+      height: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+      /* align-items: center; */
+    }
+    .Column{
+        display: flex;
+        align-content: stretch;
+        width: max-content;
+    }
+    
+    .category-card {
+      /* Adjust card styles for mobile */
+     width: 600px;
+     width:100%;
+     max-width: 400px;
+      margin-bottom: 20px;
+      box-shadow: none;
+      border: none;
+      height: auto;
+
+    }
+    
+    /* note: the card is not takin the full width of the parent container due to that my card content is coming to its next card when mobile width   */
+
+
+    /* .card-content {
+     position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+      text-align: left;
+      padding: 10px;
+      background-color: transparent;
+      box-shadow: none;
+       width: 100%; 
+    } */
+
+    .category-card img {
+        width: 70%; /* Make sure the image takes the full width of the card */
+        height: auto; /* Maintain the image aspect ratio */
+        width: 300px;
+    }
+    
+}
+  /* In this CSS code, I've added a media query that activates when the screen width is smaller than or equal to 768 pixels (typical mobile screen size). Within this media query, I've made the following adjustments: */
+  
+  /* Changed the display property of .GridStyling to block, so the cards are displayed vertically. */
+  
+  /* Adjusted styles for .category-card to make the cards more suitable for mobile, removing the box shadow and border. */
+  
+  /* Centered the content vertically and horizontally for mobile by resetting the position, top, left, transform, text-align, padding, background-color, and box-shadow properties of .card-content. */
+  
+  /* With these CSS changes, your cards will be displayed vertically when the screen size is smaller, providing a better mobile experience. */
+  
+  
+  
+  
+  
+  

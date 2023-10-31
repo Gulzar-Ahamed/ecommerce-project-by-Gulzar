@@ -1,0 +1,90 @@
+.SingleProductContainer{
+    padding:25px;
+    display: flex;
+   height: 65vh;
+    width: 95%;
+    /* background-color: black; */
+}
+
+
+
+.SingleProductImage{
+    flex: 1;
+    padding: 0 10px;
+    object-fit: cover;
+}
+
+.SingleProductContent{
+    flex: 1;
+    padding: 0 10px;
+    /* background-color: rosybrown; */
+}
+
+.SingleProductContent >h2{
+    color:black;
+    padding-top: 10px;
+    letter-spacing: 0.1rem;
+    font-weight: 1000;
+}
+.SingleProductImage > img{
+    width:100%;
+    height: 100%;
+} 
+
+.SingleProductContent >  p{
+    margin-top: 23px;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+} 
+
+.SingleProductContent  >span{
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 1.4rem;
+} 
+
+.FilterContainer{
+    display: flex;
+    /* justify-content:space-between; */
+    width: 80%;
+    margin-top: 14px;
+}
+
+.FilterBySize >span,.FilterByColor >span{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+/* above one is for my filterbysize div contains span element */
+
+.FilterByColor{
+    display: flex;
+}
+
+.FilterContainer2{
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    margin-top: 10px;
+}
+
+.Counter{
+    display: flex;
+    justify-content: space-between;
+}
+.ColorPaletteContainer{
+    height: 21px;
+    width:21px;
+    /* background-color: rgb(208, 208, 53); */
+    border-radius: 50%;
+}
+
+
+/* using media qurires for mobile apps.. */
+@media screen and (max-width:570px) {
+    .SingleProductContainer{
+        flex-direction: column;
+        height: 55vh;
+        width: 80%;
+        /* padding: 10px; */
+    }
+}

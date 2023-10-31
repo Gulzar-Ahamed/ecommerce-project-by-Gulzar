@@ -1,0 +1,203 @@
+
+.MainContainer{
+    /* background-color: #EAD7BB; */
+    background-image: url("https://img.freepik.com/free-vector/natural-exotic-leaves-background_23-2148521958.jpg?w=996&t=st=1698261614~exp=1698262214~hmac=4c12dd497a2ba3f4efcc630b502a8905d8e10d81e5d01327105bf9735a0c06f2");
+
+    background-size: cover; /* To cover the entire div */
+    background-position: center center; /* To center the background image */
+    background-repeat: no-repeat; 
+
+  }
+
+.MainContainer{
+    
+       display: flex;
+       /* background-color: lightcoral; */
+       flex-direction: column;
+       padding: 10px 20px 10px;
+       justify-content: center;
+       align-items: center;
+}
+
+.MyProfile{
+    height: auto;
+    /* width: 240px; */
+    width: 95%;
+     background-image: url("https://vrittechnologies.com/wp-content/uploads/elementor/thumbs/mern-1-1-q5x2yhvatai9vtyw8a3ej696750cy5yu4um084metk.png");
+    padding:24px 20px 10px;
+    /* background-color: brown; */
+    object-fit: contain;
+    background-size: cover; /* To cover the entire div */
+    background-position: center center; /* To center the background image */
+    background-repeat: no-repeat; 
+
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column;
+    
+}
+
+.MyProfile img {
+    max-width: 20%; /* Adjust this value as needed */
+    height: auto;
+    /* object-fit: contain; */
+  }
+
+  .MyProfileContent {
+    display: flex;
+    flex-direction: column; 
+    padding-top: 7px;
+    padding-bottom: 15px;
+  }
+
+  .MyProfileContent > h2,h3 {
+   letter-spacing: 0.1rem;
+   font-family: cursive;
+   color:white
+
+}
+
+
+
+.ant-collapse>.ant-collapse-item >.ant-collapse-header .ant-collapse-header-text {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 800;
+  color: white;
+}
+
+
+li{
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    
+}
+li span{
+    font-weight: 600;   
+    letter-spacing: 0.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ 
+
+
+
+
+
+/* Add these CSS rules to your 'AboutMe.css' or your main CSS file */
+
+/* Style the form container */
+.Comments {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Style the form title */
+  .Comments p3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Style form labels */
+  .ant-form-item-label {
+    font-weight: bold;
+  }
+  
+  /* Style form inputs and text area */
+  .ant-input,
+  .ant-input-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the Post button */
+  .ant-btn-primary {
+    background-color: #007bff; /* Change the button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the Post button */
+  .ant-btn-primary:hover {
+    background-color: #0056b3; /* Change the button color on hover */
+  }
+  
+  /* Style the form error message */
+  .ant-form-item-explain-error {
+    color: red;
+  }
+  
+  /* Style the character count for the text area */
+  .ant-input-count {
+    display: block;
+    text-align: right;
+    font-size: 0.8rem;
+    color: #777;
+  }
+  
+  /* Center align the form elements */
+  .ant-form-vertical .ant-form-item-control {
+    text-align: center;
+  }
+  
+
+
+  /* showing comments */
+
+
+  /* Style the comments container */
+.ShowComments {
+  /* background-color: #f0f0f0;
+   */
+   background-color: white;
+  border-radius: 8px;
+  width: 80%;
+  padding: 5px;
+  margin: 5px auto;
+  box-shadow: 0 0 10px solid rgba(0, 0, 0, 0.1);
+}
+
+.ShowComments h3{
+   color: black;
+}
+/* Style the user comment container */
+.UserCommentContainer {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin: 7px auto;
+  padding: 5px 20px;
+}
+
+
+/* Style the comments header */
+.CommentsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+
+/* Style the comments body */
+.CommentsBody {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+.Feedback{
+
+  /* background-image: url("https://img.freepik.com/free-vector/realistic-green-leaves-background_52683-89787.jpg?w=996&t=st=1698259552~exp=1698260152~hmac=dbb3c28fe628b26de1f8e7b2cb4639a4dfe29e42a0684f67d707cfd77a5a2392"); */
+}

@@ -1,0 +1,146 @@
+/* .container{
+
+    padding:10px;
+    background-color: black;
+    display: flex;
+    /* justify-content: center; 
+}
+
+.itemContainer{
+    margin-top: 15px;
+    display: flex;
+    padding: 15px;
+    background-color: pink;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.imageContainer{
+    flex:1;
+    display: flex;
+    width:290px;
+    height: 290px;
+   background-color: red;
+}
+
+imageContainer >img{
+   
+ object-fit: fill;
+}
+
+.informationContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    flex:2;
+}
+
+.priceContainer{
+
+display: flex;
+flex:1;
+background-color: green;
+}
+
+
+@media screen and (max-width:768px) {
+    
+        .itemContainer{
+            flex-direction: column;            
+        }
+} */
+
+/* Add any global styles here */
+
+.wishlist-container {
+  padding: 10px;
+}
+
+.item-container {
+  margin-top: 15px;
+  display: flex;
+  padding: 15px;
+  background-color: white;
+  justify-content: space-between;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  width: 270px;
+  height: 280px;
+  overflow: hidden;
+}
+
+.image-container img {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+
+.information-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 2;
+  padding: 10px;
+}
+
+.item-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.item-id {
+  font-weight: 600;
+  color: #777;
+}
+
+.item-description {
+  margin-top: 10px;
+  flex-grow: 1;
+  color: #333;
+}
+
+.color-palette {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.color-palette span {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.price-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .item-container {
+    flex-direction: column;
+  }
+
+  .image-container{
+    height: 250px;
+    width:250px;
+  }
+
+  .image-container > img{
+    height: 90%;
+    width:90%;
+    object-fit: fill;
+  }
+  
+}

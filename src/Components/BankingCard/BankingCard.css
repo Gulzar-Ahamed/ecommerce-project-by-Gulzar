@@ -1,0 +1,153 @@
+/* .CardContainer{
+display: flex;
+
+margin: 35px 5px;
+background-color:white;
+justify-content: center;
+width: 95vw;
+height: 70vh;
+padding: 25px;
+
+}
+
+.BankCardImage{
+flex:3;
+
+display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BankCardImage img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; 
+  }
+
+.BankCardDetails{
+
+    flex:2;
+
+    width: 100px;
+    height: 200px;
+}
+
+
+.ant-input {
+    border: none; 
+    
+    border-bottom: 1px solid #ccc; 
+    border-radius: 0; 
+    box-shadow: none;
+    padding: 0; 
+}
+
+.ant-input:focus {
+    border-bottom: 2px solid #1890ff;
+}
+
+.Card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.CardContainer p{
+ 
+    font-weight: 600;
+}
+
+body{
+    background-color: #1890ff;
+}
+@media screen and (max-width: 768px) {
+  body{
+    background-color: white;
+  }  
+} */
+
+
+/* Add these styles to your CSS */
+
+/* Common styles for inputs and labels */
+.ant-input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+}
+
+.ant-input:focus {
+    border-bottom: 2px solid #1890ff;
+}
+
+.CardContainer {
+    display: flex;
+    margin: 15px 5px;
+    background-color: white;
+    justify-content: center;
+    width: 95vw;
+    height: 100vh;
+    padding: 10px;
+    /* background-color: lightgray; */
+    flex-direction: column; /* Stack elements vertically on mobile */
+/* background-image: url("https://img.freepik.com/free-vector/online-smartphone-payment-illustration_33099-599.jpg?w=1060&t=st=1698316906~exp=1698317506~hmac=6f522cc0de2ac53eb29de8602e1d26cd75885b560976c9e49b77f363b2af1d97"); */
+
+}
+
+.BankCardImage {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 43px;
+}
+
+.BankCardImage img {
+    max-width: 100%;
+    /* max-height: 100%; */
+    height: 280px;
+    object-fit: contain;
+}
+
+.BankCardDetails {
+    flex: 2;
+    width: 100%;
+    text-align: center; /* Center text on mobile */
+}
+
+.Card {
+    display: flex;
+    flex-direction: column; /* Stack card inputs vertically on mobile */
+}
+
+.CardContainer p {
+    font-weight: 600;
+}
+
+body {
+    /* background-color: #1890ff; */
+}
+
+/* Media query for screens up to 768px wide (typical mobile devices) */
+@media screen and (max-width: 768px) {
+    .CardContainer {
+        height: auto; /* Allow height to adjust based on content */
+    }
+    
+    .BankCardImage {
+        flex: auto; /* Allow image to take available space */
+    }
+
+    .BankCardDetails {
+        flex: auto; /* Allow details to take available space */
+    }
+    
+    .Card {
+        flex-direction: column; /* Stack card inputs vertically on mobile */
+    }
+
+    .CardContainer p {
+        text-align: center; /* Center text on mobile */
+    }
+}
